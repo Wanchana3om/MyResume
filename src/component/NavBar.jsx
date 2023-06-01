@@ -1,6 +1,6 @@
 import { useState } from "react";
 function NavBar(props) {
-  const [toggle, setToggle]=useState(false)
+  const [toggle, setToggle]=useState(true)
   
     const handleOnClick = (e, id) => {
         e.preventDefault();

@@ -8,7 +8,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 import { useState } from "react";
 
 function App() {
-  const [light, setLight] = useState(false);
+  const [light, setLight] = useState(true);
   const handleShow = () => {
     setLight(!light);
   };
