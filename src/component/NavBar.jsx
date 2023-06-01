@@ -1,6 +1,6 @@
 import { useState } from "react";
 function NavBar(props) {
-  const [toggle, setToggle]=useState(true)
+  const [toggle, setToggle]=useState(false)
   
     const handleOnClick = (e, id) => {
         e.preventDefault();
@@ -18,7 +18,7 @@ function NavBar(props) {
 
 
     return (
-        <div className={`w-screen z-30 flex flex-row shadow-2xl justify-between ${toggle ?"bg-[#ab5820] border-white border-b-[1px]":"bg-[#ffaf7a]"} text-white items-center py-5 mx-auto fixed`}>
+        <div className={`w-screen z-30 flex flex-row shadow-2xl justify-between ${!toggle ?"bg-[#ab5820] border-white border-b-[1px]":"bg-[#ffaf7a]"} text-white items-center py-5 mx-auto fixed`}>
         
           <nav className="ml-[7%]">
                <h1 className="text-[20px] hover:cursor-pointer" onClick={(e) => handleOnClick(e, "resume")}>MY PROFILE</h1>
@@ -42,12 +42,12 @@ function NavBar(props) {
               >
                   Resume
               </a>
-               { !toggle&&
+               { toggle&&
               <li className="ml-[40px] hover:cursor-pointer" onClick={handleToggle}>
               <img src="/icons8-light-100 (1).png" alt="" className="w-[40px]" />
             </li>}
               
-              { toggle&&
+              { !toggle&&
               <li className="ml-[40px] hover:cursor-pointer" onClick={handleToggle}>
               <img src="/icons8-light-100.png" alt="" className="w-[40px]" />
             </li>}

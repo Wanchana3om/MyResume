@@ -8,7 +8,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 import { useState } from "react";
 
 function App() {
-  const [light, setLight] = useState(true);
+  const [light, setLight] = useState(false);
   const handleShow = () => {
     setLight(!light);
   };
@@ -19,14 +19,14 @@ function App() {
       <main
         id="resume"
         className={`w-full ${
-          light ? "bg-[#222]" : "bg-white"
+          !light ? "bg-[#222]" : "bg-white"
         }  pt-[70px] transition-all duration-300`}
       >
         <div className="w-[80%] mx-auto ">
           <section className=" w-full flex flex-row justify-between">
             <div
               className={`xl:w-[30%] lg:[30%] ${
-                light ? "bg-[#000000]" : "bg-[#ffaf7a]"
+                !light ? "bg-[#000000]" : "bg-[#ffaf7a]"
               } p-[20px] rounded-bl-[30px] pt-[70px] flex flex-col justify-between`}
             >
               <div className="xl:hidden lg:hidden flex justify-center">
@@ -79,7 +79,7 @@ function App() {
             </div>
             <div
               className={` lg:w-[70%] xl:w-[40%] xl:flex lg:flex hidden bg-gradient-to-r ${
-                light ? "from-[#000000]" : "from-[#ffaf7a]"
+                !light ? "from-[#000000]" : "from-[#ffaf7a]"
               } to-[#ff781e] pt-[70px]`}
             >
               <img src="/pic-removebg.png" className="w-full " />
@@ -87,7 +87,7 @@ function App() {
             <div className="xl:flex hidden flex-row xl:w-[25%] justify-center items-center">
               <h1
                 className={`text-[50px] font-[700] ${
-                  light ? "text-white" : "text-orange-700"
+                  !light ? "text-white" : "text-orange-700"
                 }  p-[40px]`}
               >
                 JUNIOR <br />
@@ -100,12 +100,12 @@ function App() {
         <section id="project" className=" text-[40px] pt-24 mt-5 pb-[150px] ">
           <div
             className={`  rounded-[50px] ${
-              light ? "bg-[#000000]  border-white border-[1px]" : "bg-[#ffd6ba]"
+              !light ? "bg-[#000000]  border-white border-[1px]" : "bg-[#ffd6ba]"
             }  bg-opacity-100  w-[80%] mx-auto py-[90px]`}
           >
             <h1
               className={`text-center ${
-                light ? "text-white" : "text-orange-700"
+                !light ? "text-white" : "text-orange-700"
               } text-[55px]`}
             >
               MY PROJECT
@@ -158,7 +158,7 @@ function App() {
           <div
             id="skills"
             className={`w-80% pt-20 mx-auto  my-[70px] ${
-              light ? "text-white" : "text-orange-700"
+              !light ? "text-white" : "text-orange-700"
             }  flex flex-col justify-center items-center`}
           >
             <div>
@@ -171,7 +171,7 @@ function App() {
               </div>
               <div
                 className={`xl:flex lg:flex hidden flex-row ${
-                  light ? "bg-black" : "bg-[#ffaf7a]"
+                  !light ? "bg-black" : "bg-[#ffaf7a]"
                 } justify-between mt-[30px]  bg-opacity-50 p-[30px] rounded-[40px] border-[1px] `}
               >
                 <img
@@ -198,7 +198,7 @@ function App() {
 
               <div
                 className={`xl:hidden lg:hidden  flex-row ${
-                  light ? "bg-black" : "bg-[#ffaf7a]"
+                  !light ? "bg-black" : "bg-[#ffaf7a]"
                 } justify-between mt-[30px]  bg-opacity-50 p-[30px] rounded-[40px] border-[1px] `}
               >
                 <div className=" flex justify-between">
@@ -233,7 +233,7 @@ function App() {
               </div>
               <div
                 className={`xl:flex lg:flex hidden flex-row ${
-                  light ? "bg-black" : "bg-[#ffaf7a]"
+                  !light ? "bg-black" : "bg-[#ffaf7a]"
                 } justify-between mt-[30px]  bg-opacity-50 p-[30px] rounded-[40px] border-[1px] `}
               >
                 <img
@@ -255,7 +255,7 @@ function App() {
               </div>
               <div
                 className={`xl:hidden lg:hidden  flex-row ${
-                  light ? "bg-black" : "bg-[#ffaf7a]"
+                  !light ? "bg-black" : "bg-[#ffaf7a]"
                 } justify-between mt-[30px]  bg-opacity-50 p-[30px] rounded-[40px] border-[1px] `}
               >
                 <div className=" flex justify-around">
@@ -286,7 +286,7 @@ function App() {
             <h1
               id="education"
               className={`text-center text-[50px] pt-20 mb-[20px] ${
-                light ? "text-white " : "text-orange-700"
+                !light ? "text-white " : "text-orange-700"
               } `}
             >
               EDUCATION
@@ -294,7 +294,7 @@ function App() {
             <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 w-[80%] mx-auto justify-center">
               <div
                 className={` ${
-                  light
+                  !light
                     ? "bg-[#000000] border-white border-[1px]"
                     : "bg-[#ffaf7a]"
                 } flex flex-col items-center  text-white rounded-[40px] m-[30px] h-[480px] p-[32px] transform transition duration-300 hover:scale-110 `}
@@ -323,7 +323,7 @@ function App() {
               </div>
               <div
                 className={` ${
-                  light
+                  !light
                     ? "bg-[#000000] border-white border-[1px]"
                     : "bg-[#ffaf7a]"
                 } flex flex-col items-center  text-white rounded-[40px] m-[30px] h-[480px] p-[32px] transform transition duration-300 hover:scale-110 `}
@@ -352,7 +352,7 @@ function App() {
               </div>
               <div
                 className={` ${
-                  light
+                  !light
                     ? "bg-[#000000] border-white border-[1px]"
                     : "bg-[#ffaf7a]"
                 } flex flex-col items-center  text-white rounded-[40px] m-[30px] h-[480px] p-[32px] transform transition duration-300 hover:scale-110 `}
