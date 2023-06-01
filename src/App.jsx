@@ -26,7 +26,7 @@ function App() {
           <section className=" w-full flex flex-row justify-between">
             <div
               className={`xl:w-[30%] lg:[30%] ${
-                !light ? "bg-[#000000]" : "bg-[#ffaf7a]"
+                !light ? "lg:bg-black xl:bg-black bg-[#222]" : "xl:bg-[#ffaf7a] lg:bg-[#ffaf7a] bg-white"
               } p-[20px] rounded-bl-[30px] pt-[70px] flex flex-col justify-between`}
             >
               <div className="xl:hidden lg:hidden flex justify-center">
@@ -37,43 +37,43 @@ function App() {
                 />
               </div>
 
-              <h1 className="xl:text-[60px] lg:text-[60px] text-[30px] text-white text-center lg:text-start xl:text-start ">
+              <h1 className={`xl:text-[60px] xl:mt-0 lg:mt-0 mt-8 lg:text-[60px] text-[30px] xl:text-white lg:text-white ${!light ?"text-white":"text-orange-700"} text-center lg:text-start xl:text-start `}>
                 WANCHANA INMASOM
               </h1>
 
-              <p className="text-white xl:text-[20px] lg:text-[20px] text-[16px] text-center lg:text-start xl:text-start">
+              <p className={`xl:text-white lg:text-white ${!light ?"text-white":"text-orange-700"} xl:text-[20px] xl:mt-0 lg:mt-0 my-8 lg:text-[20px] text-[16px] text-center lg:text-start xl:text-start`}>
                 I'm passionate about acquiring new knowledge. with experience
                 working <br /> in team environments and the ability <br /> to
                 handle pressure.
               </p>
-              <div className="flex justify-center text-start">
+              <div className="xl:flex lg:flex hidden justify-center text-start">
                 <a
-                  className="text-base font-bold hover:cursor-pointer "
+                  className="text-base font-bold hover:cursor-pointer transform transition duration-300 hover:scale-125"
                   href="https://github.com/Wanchana3om"
                   target="_blank"
                 >
-                  <img src="/icons8-github-100.png" alt="" />
+                  <img src="/icons8-github.svg" alt="" />
                 </a>
                 <a
-                  className="text-base font-bold hover:cursor-pointer "
+                  className="text-base font-bold hover:cursor-pointer transform transition duration-300 hover:scale-125"
                   href="https://www.linkedin.com/in/wanchana-inmasom-a365a626a/"
                   target="_blank"
                 >
-                  <img src="/icons8-linkedin-100.png" alt="" />
+                  <img src="/icons8-linkedin.svg" alt="" />
                 </a>
                 <a
-                  className="text-base font-bold hover:cursor-pointer "
+                  className="text-base font-bold hover:cursor-pointer transform transition duration-300 hover:scale-125"
                   href="https://www.facebook.com/wanchanaa.ang/"
                   target="_blank"
                 >
-                  <img src="/icons8-facebook-100.png" alt="" />
+                  <img src="/icons8-facebook.svg" alt="" />
                 </a>
                 <a
-                  className="text-base font-bold hover:cursor-pointer "
+                  className="text-base font-bold hover:cursor-pointer transform transition duration-300 hover:scale-125"
                   href="https://www.instagram.com/bomb_wcn/"
                   target="_blank"
                 >
-                  <img src="/icons8-instagram-100.png" alt="" />
+                  <img src="/icons8-ig.svg" alt="" />
                 </a>
               </div>
             </div>
@@ -97,11 +97,11 @@ function App() {
           </section>
         </div>
 
-        <section id="project" className=" text-[40px] py-24 mt-5  ">
+        <section id="project" className=" text-[40px] xl:py-24 lg:py-24 py-10  ">
           <div
             className={`  rounded-[50px] ${
               !light ? "bg-[#000000]  border-white border-[1px]" : "bg-[#ffd6ba]"
-            }  bg-opacity-100  w-[80%] mx-auto py-[45px]`}
+            }  bg-opacity-100  w-[95%] xl:w-[80%] lg:w-[80%] mx-auto py-[45px]`}
           >
             <h1
               className={`text-center ${
@@ -157,7 +157,7 @@ function App() {
 
           <div
             id="skills"
-            className={`w-80% pt-20 mx-auto  my-[70px] ${
+            className={`w-80% xl:pt-20 lg:pt-20  mx-auto  my-[70px] ${
               !light ? "text-white" : "text-orange-700"
             }  flex flex-col justify-center items-center`}
           >
@@ -285,7 +285,7 @@ function App() {
           <div>
             <h1
               id="education"
-              className={`text-center text-[30px] xl:text-[50px] lg:text-[50px] pt-20 mb-[20px] ${
+              className={`text-center text-[30px] xl:text-[50px] lg:text-[50px] xl:pt-20 lg:pt-20 mb-[20px] ${
                 !light ? "text-white " : "text-orange-700"
               } `}
             >
@@ -382,6 +382,36 @@ function App() {
             </div>
           </div>
         </section>
+        <div className="flex xl:hidden lg:hidden bg-black py-16 justify-center text-start">
+                <a
+                  className="text-base font-bold hover:cursor-pointer transform transition duration-300 hover:scale-125"
+                  href="https://github.com/Wanchana3om"
+                  target="_blank"
+                >
+                  <img src="/icons8-github.svg" alt="" />
+                </a>
+                <a
+                  className="text-base font-bold hover:cursor-pointer transform transition duration-300 hover:scale-125"
+                  href="https://www.linkedin.com/in/wanchana-inmasom-a365a626a/"
+                  target="_blank"
+                >
+                  <img src="/icons8-linkedin.svg" alt="" />
+                </a>
+                <a
+                  className="text-base font-bold hover:cursor-pointer transform transition duration-300 hover:scale-125"
+                  href="https://www.facebook.com/wanchanaa.ang/"
+                  target="_blank"
+                >
+                  <img src="/icons8-facebook.svg" alt="" />
+                </a>
+                <a
+                  className="text-base font-bold hover:cursor-pointer transform transition duration-300 hover:scale-125"
+                  href="https://www.instagram.com/bomb_wcn/"
+                  target="_blank"
+                >
+                  <img src="/icons8-ig.svg" alt="" />
+                </a>
+              </div>
       </main>
       {/* <Footer /> */}
     </>
