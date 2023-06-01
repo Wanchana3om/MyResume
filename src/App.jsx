@@ -25,8 +25,8 @@ function App() {
         <div className="w-[80%] mx-auto ">
           <section className=" w-full flex flex-row justify-between">
             <div
-              className={`xl:w-[30%] lg:[30%] ${
-                !light ? "lg:bg-black xl:bg-black bg-[#222]" : "xl:bg-[#ffaf7a] lg:bg-[#ffaf7a] bg-white"
+              className={`xl:w-[30%] lg:[30%] transition-all duration-300 ${
+                !light ? "lg:bg-black xl:bg-black bg-[#222]" : "xl:bg-[#ffaf7a] lg:bg-[#ffaf7a] bg-white "
               } p-[20px] rounded-bl-[30px] pt-[70px] flex flex-col justify-between`}
             >
               <div className="xl:hidden lg:hidden flex justify-center">
@@ -322,7 +322,7 @@ function App() {
                 </div>
               </div>
               <div
-                className={` ${
+                className={` transition-all duration-300 ${
                   !light
                     ? "bg-[#000000] border-white border-[1px]"
                     : "bg-[#ffaf7a]"
