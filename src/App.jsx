@@ -128,27 +128,27 @@ function App() {
               className="mySwiper"
             >
               <SwiperSlide>
-                <a href="https://github.com/Wanchana3om/Merry-Match" target="_blank">
+                <a href="https://merry-match.vercel.app/" target="_blank">
                 <img src="/merry.png"/>
                 </a>
               </SwiperSlide>
               <SwiperSlide>
-              <a href="https://github.com/Wanchana3om/Merry-Match" target="_blank">
+              <a href="https://merry-match.vercel.app/" target="_blank">
                 <img src="/merry.png"/>
                 </a>
               </SwiperSlide>
               <SwiperSlide>
-              <a href="https://github.com/Wanchana3om/Merry-Match" target="_blank">
+              <a href="https://merry-match.vercel.app/" target="_blank">
                 <img src="/merry.png"/>
                 </a>
               </SwiperSlide>
               <SwiperSlide>
-              <a href="https://github.com/Wanchana3om/Merry-Match" target="_blank">
+              <a href="https://merry-match.vercel.app/" target="_blank">
                 <img src="/merry.png"/>
                 </a>
               </SwiperSlide>
               <SwiperSlide>
-              <a href="https://github.com/Wanchana3om/Merry-Match" target="_blank">
+              <a href="https://merry-match.vercel.app/" target="_blank">
                 <img src="/merry.png"/>
                 </a>
               </SwiperSlide>
