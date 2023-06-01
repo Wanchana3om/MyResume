@@ -382,7 +382,7 @@ function App() {
             </div>
           </div>
         </section>
-        <div className="flex xl:hidden lg:hidden bg-black py-16 justify-center text-start">
+        <div className={`flex xl:hidden lg:hidden ${light ?"bg-[#ffa13c]" :"bg-black"} py-16 justify-center text-start`}>
                 <a
                   className="text-base font-bold hover:cursor-pointer transform transition duration-300 hover:scale-125"
                   href="https://github.com/Wanchana3om"
