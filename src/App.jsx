@@ -97,11 +97,11 @@ function App() {
           </section>
         </div>
 
-        <section id="project" className=" text-[40px] pt-24 mt-5 pb-[150px] ">
+        <section id="project" className=" text-[40px] py-24 mt-5  ">
           <div
             className={`  rounded-[50px] ${
               !light ? "bg-[#000000]  border-white border-[1px]" : "bg-[#ffd6ba]"
-            }  bg-opacity-100  w-[80%] mx-auto py-[90px]`}
+            }  bg-opacity-100  w-[80%] mx-auto py-[45px]`}
           >
             <h1
               className={`text-center ${
