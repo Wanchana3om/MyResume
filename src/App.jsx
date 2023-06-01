@@ -37,11 +37,11 @@ function App() {
                 />
               </div>
 
-              <h1 className="text-[60px] text-white text-center lg:text-start xl:text-start ">
+              <h1 className="xl:text-[60px] lg:text-[60px] text-[30px] text-white text-center lg:text-start xl:text-start ">
                 WANCHANA INMASOM
               </h1>
 
-              <p className="text-white text-[20px] text-center lg:text-start xl:text-start">
+              <p className="text-white xl:text-[20px] lg:text-[20px] text-[16px] text-center lg:text-start xl:text-start">
                 I'm passionate about acquiring new knowledge. with experience
                 working <br /> in team environments and the ability <br /> to
                 handle pressure.
@@ -106,7 +106,7 @@ function App() {
             <h1
               className={`text-center ${
                 !light ? "text-white" : "text-orange-700"
-              } text-[55px]`}
+              } xl:text-[55px] lg:text-[55px] text-[30px]`}
             >
               MY PROJECT
             </h1>
@@ -162,12 +162,12 @@ function App() {
             }  flex flex-col justify-center items-center`}
           >
             <div>
-              <h1 className="text-center text-[55px] "> SKILLS</h1>
+              <h1 className="text-center xl:text-[55px] lg:text-[55px] text-[30px] "> SKILLS</h1>
             </div>
 
             <div className=" w-[80%] xl:w-[60%] lg:w-[60%] mx-[50px] ">
               <div>
-                <h2 className="text-center mt-[20px]">FRONT-END DEVELOP</h2>
+                <h2 className="text-center mt-[20px] xl:text-[40px] lg:text-[40px] text-[20px]">FRONT-END DEVELOP</h2>
               </div>
               <div
                 className={`xl:flex lg:flex hidden flex-row ${
@@ -229,7 +229,7 @@ function App() {
               </div>
 
               <div className="mt-[40px]">
-                <h2 className="text-center">BLACK-END DEVELOP</h2>
+                <h2 className="text-center xl:text-[40px] lg:text-[40px] text-[20px]">BLACK-END DEVELOP</h2>
               </div>
               <div
                 className={`xl:flex lg:flex hidden flex-row ${
@@ -285,13 +285,13 @@ function App() {
           <div>
             <h1
               id="education"
-              className={`text-center text-[50px] pt-20 mb-[20px] ${
+              className={`text-center text-[30px] xl:text-[50px] lg:text-[50px] pt-20 mb-[20px] ${
                 !light ? "text-white " : "text-orange-700"
               } `}
             >
               EDUCATION
             </h1>
-            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 w-[80%] mx-auto justify-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 w-[100%] xl:w-[80%] lg:w-[80%] mx-auto justify-center">
               <div
                 className={` ${
                   !light
@@ -304,13 +304,13 @@ function App() {
                   style={{ backgroundImage: "url('/rsu/tu.png')" }}
                 ></div>
                 <div>
-                  <p className=" text-white text-2xl font-bold mb-2 text-center">
+                  <p className=" text-white text-xl xl:text-2xl lg:text-2xl font-bold mb-2 text-center">
                     TechUp <br />
                     Coding Bootcamp
                   </p>
                 </div>
                 <div>
-                  <p className="text-white text-base text-center mt-[30px]">
+                  <p className="text-white text-[14px] xl:text-base lg:text-base text-center mt-[30px]">
                     four-month for learn full-stack course at TechUp with
                     Project.
                   </p>
@@ -333,19 +333,19 @@ function App() {
                   style={{ backgroundImage: "url('/rsu/greenwich_logo.png')" }}
                 ></div>
                 <div>
-                  <p className=" text-white text-2xl font-bold mb-2 text-center">
+                  <p className=" text-white text-xl xl:text-2xl lg:text-2xl  font-bold mb-2 text-center">
                     Greenwich College <br />
                     Study General English
                   </p>
                 </div>
                 <div>
-                  <p className="text-white text-base text-center mt-[30px]">
+                  <p className="text-white text-[14px] xl:text-base lg:text-base text-center mt-[30px]">
                     Studied General English in Australia on Upper-intermediate
                     level.
                   </p>
                 </div>
                 <div>
-                  <p className="text-white text-2xl font-bold mb-2 text-center mt-[30px]">
+                  <p className="text-white text-xl xl:text-2xl lg:text-2xl  font-bold mb-2 text-center mt-[30px]">
                     2020-2021
                   </p>
                 </div>
@@ -362,13 +362,13 @@ function App() {
                   style={{ backgroundImage: "url('/rsu/RSU.png')" }}
                 ></div>
                 <div>
-                  <p className=" text-white text-2xl font-bold mb-2 text-center">
+                  <p className=" text-white text-xl xl:text-2xl lg:text-2xl font-bold mb-2 text-center">
                     Rangsit University <br />
                     Electrical En
                   </p>
                 </div>
                 <div>
-                  <p className="text-white text-base text-center mt-[30px]">
+                  <p className="text-white text-[14px] xl:text-base lg:text-base text-center mt-[30px]">
                     Bachaelor of Degree in College of Electrical Engineering
                     Graduated 2019, GPA 3.02
                   </p>
