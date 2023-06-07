@@ -1,4 +1,4 @@
-import NavBar from "../component/NavBar";
+import NavBar2 from "../component/NavBar2";
 import { useState } from "react";
 
 function SkillPage() {
@@ -11,7 +11,7 @@ function SkillPage() {
 
   return (
     <>
-      <NavBar handleLight={handleShow} light={light} />
+      <NavBar2 handleLight={handleShow} light={light} />
 
       <div
         id="skills"

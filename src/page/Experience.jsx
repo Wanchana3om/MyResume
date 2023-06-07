@@ -1,4 +1,4 @@
-import NavBar from "../component/NavBar";
+import NavBar2 from "../component/NavBar2";
 import { useState } from "react";
 
 function Experience() {
@@ -11,7 +11,7 @@ function Experience() {
 
   return (
     <>
-      <NavBar handleLight={handleShow} light={light} />
+      <NavBar2 handleLight={handleShow} light={light} />
       <div
         className={`bg-gradient-to-r  ${
           !light
