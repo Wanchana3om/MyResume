@@ -357,6 +357,7 @@ function HomePage() {
             </div>
           </div>
         </section>
+        <div id="contact"></div>
         <Footer light={light} />
       </main>
     </>

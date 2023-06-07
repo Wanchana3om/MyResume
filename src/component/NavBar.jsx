@@ -48,6 +48,14 @@ function NavBar(props) {
           >
             Project
           </li>
+          <li
+            className={`mr-[56px] ${
+              props.light ? "hover:text-[#f9c576]" : "hover:text-[#76f9c5]"
+            }  xl:flex lg:flex hidden text-base font-bold hover:cursor-pointer`}
+            onClick={(e) => handleOnClick(e, "contact")}
+          >
+            Contact
+          </li>
           <a
             className={`text-base hover:${
               props.light ? "text-[#f9c576]" : "text-[#76f9c5]"
