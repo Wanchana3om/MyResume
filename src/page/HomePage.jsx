@@ -118,10 +118,9 @@ function HomePage() {
                 </div>
                 <div>
                   <p className="flex w-[85%] font-[300]">
-                    Lorem, repudiandae error deserunt accusamus deleniti
-                    quibusdam iure animi officiis, dolores perspiciatis natus
-                    dolorum possimus saepe neque pariatur aliquid. Molestias
-                    totam unde in id?
+                    This is my resume, Document summarizing a person's
+                    qualifications, including education, work experience, and
+                    skills. .
                   </p>
                 </div>
               </div>
@@ -153,7 +152,7 @@ function HomePage() {
                 <h2 className="text-[22px] mt-3 font-[600]">Skill</h2>
 
                 <p className="text-[14px] mt-2">
-                  Lorem ipsum dolor sit amet consectetur.
+                  My skills in frontend and backend development.
                 </p>
               </Link>
 
@@ -170,7 +169,7 @@ function HomePage() {
                 </div>
                 <h2 className="text-[22px] mt-3 font-[600]">Education</h2>
                 <p className="text-[14px] mt-2">
-                  Lorem ipsum dolor sit amet consectetur.
+                  The education I have undergone.
                 </p>
               </Link>
             </div>
@@ -193,9 +192,10 @@ function HomePage() {
                 </h2>
                 <p className="text-[14px]  text-center mt-7">
                   {" "}
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Recusandae et, asperiores nam quis atque consectetur facere.
-                  Delectus, praesentium. Eum, sequi.
+                  Since 2015, my journey has been filled with diverse
+                  experiences and personal growth. I have encountered numerous
+                  opportunities and challenges that have shaped me into who I am
+                  today.
                 </p>
               </div>
             </Link>
@@ -276,9 +276,9 @@ function HomePage() {
                   } `}
                 ></div>
 
-                <p className="flex xl:w-[80%] lg:w-[80%] w-full  text-center xl:text-start lg:text-start ">
-                  Ldoloribus aliquid consequatur placeat tenetur, illo nostrum
-                  quae.
+                <p className="flex  w-full  text-center xl:text-start lg:text-start ">
+                  This is a personal project website that I have created to
+                  enhance my skills and learn new technologies on a daily basis.
                 </p>
                 <div
                   className={`flex py-7 flex-col xl:w-[90%] lg:w-[90%] w-full mt-5 border-[3px]  ${
@@ -306,38 +306,46 @@ function HomePage() {
                     modules={[Autoplay, EffectCoverflow, Pagination]}
                     className="mySwiper "
                   >
-                    
                     <SwiperSlide>
-                    <Link to="https://github.com/Wanchana3om/Merry-Match"
-                    target="_blank">
+                      <Link
+                        to="https://github.com/Wanchana3om/Merry-Match"
+                        target="_blank"
+                      >
                         <img src="/merry.png" />
-                        </Link>
+                      </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <Link to="https://github.com/Wanchana3om/Merry-Match"
-                    target="_blank">
+                      <Link
+                        to="https://github.com/Wanchana3om/Merry-Match"
+                        target="_blank"
+                      >
                         <img src="/merry.png" />
-                        </Link>
+                      </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <Link to="https://github.com/Wanchana3om/Merry-Match"
-                    target="_blank">
+                      <Link
+                        to="https://github.com/Wanchana3om/Merry-Match"
+                        target="_blank"
+                      >
                         <img src="/merry.png" />
-                        </Link>
+                      </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <Link to="https://github.com/Wanchana3om/Merry-Match"
-                    target="_blank">
+                      <Link
+                        to="https://github.com/Wanchana3om/Merry-Match"
+                        target="_blank"
+                      >
                         <img src="/merry.png" />
-                        </Link>
+                      </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <Link to="https://github.com/Wanchana3om/Merry-Match"
-                    target="_blank">
+                      <Link
+                        to="https://github.com/Wanchana3om/Merry-Match"
+                        target="_blank"
+                      >
                         <img src="/merry.png" />
-                        </Link>
+                      </Link>
                     </SwiperSlide>
-                   
                   </Swiper>
                 </div>
                 <div className="flex xl:justify-start pb-7 lg:justify-start justify-center">
