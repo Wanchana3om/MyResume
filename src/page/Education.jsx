@@ -155,6 +155,35 @@ function Education() {
             </div>
           </div>
         </div>
+        <div className=" pt-[80px] mx-[15%]">
+         <h1 className={`text-[36px] font-[600] pb-[80px] text-center ${!light ? "text-[#ffff]" : "text-black"} `}>
+          <span className={`${!light ? "text-[#76f9c5]" : "text-orange-700"}`}>
+            My
+          </span> Certification</h1> 
+          <div className=" flex xl:justify-between lg:justify-start justify-start  xl:flex-row lg:flex-col flex-col">
+          <div className={`flex gap-5 xl:w-[50%] lg:w-full w-full`}>
+              <img src="/skill/cer1.png" className="xl:w-[20%] lg:w-[30%] w-[30%]" />
+            <div>
+              <div >
+              <span className={`${!light ? "text-[#76f9c5]" : "text-orange-700"}`}>TechUp's Certificate</span>
+              </div>
+            <p className={`mt-4 ${!light ? "text-[#ffff]" : "text-black"}`}> Completed TechUp's Software Development Bootcamp in May 2023</p>
+            </div>
+            
+          </div>
+          <div className="flex gap-5 xl:w-[50%] lg:w-full w-full xl:mt-0 lg:mt-9 mt-9">
+              <img src="/skill/cer2.png" className="xl:w-[40%] lg:w-[50%] w-[50%]" />
+              <div>
+              <div >
+              <span className={`${!light ? "text-[#76f9c5]" : "text-orange-700"}`}>Huawei's Certificate</span>
+              
+              </div>
+            <p className={`mt-4 ${!light ? "text-[#ffff]" : "text-black"}`}> Completed the Huawei Certificate requirements and is recognized as a data center faciility</p>
+            </div>
+          </div>
+          </div>
+         
+        </div>
       </div>
     </>
   );
