@@ -71,12 +71,12 @@ function HomePage() {
               <p
                 className={`font-[300] ${
                   !light ? "text-white" : "text-black"
-                } xl:text-[18px] xl:mt-0 lg:mt-0 my-8 lg:text-[20px] text-[16px] w-full xl:w-[80%] lg:w-[80%] text-center lg:text-start xl:text-start`}
+                } xl:text-[16px] xl:mt-0 lg:mt-0 my-8 lg:text-[16px] text-[16px] w-full xl:w-[80%] lg:w-[80%] text-center lg:text-start xl:text-start`}
               >
-                I am a fast learner and passionate about acquiring new
-                knowledge. With experience working in team environments and the
-                ability to handle pressure, I am looking for Full Stack
-                Developer.
+                Hi, I'm looking for a front-end or 
+full-stack developer position. 
+<br />I graduated in electrical engineering, but I'm interested in software development, so that's why I changed. I started learning by studying in 
+the Fullstack Developer Bootcamp to focus on this, and I am confident and intent on being a developer.
               </p>
             </div>
 
