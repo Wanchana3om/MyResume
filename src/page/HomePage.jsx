@@ -306,12 +306,21 @@ the Fullstack Developer Bootcamp to focus on this, and I am confident and intent
                     modules={[Autoplay, EffectCoverflow, Pagination]}
                     className="mySwiper "
                   >
+                    
                     <SwiperSlide>
                       <Link
                         to="https://github.com/Wanchana3om/Merry-Match"
                         target="_blank"
                       >
                         <img src="/merry.png" />
+                      </Link>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <Link
+                        to="https://github.com/Wanchana3om/GIS"
+                        target="_blank"
+                      >
+                        <img src="/rsu/Untitled.png" />
                       </Link>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -324,26 +333,10 @@ the Fullstack Developer Bootcamp to focus on this, and I am confident and intent
                     </SwiperSlide>
                     <SwiperSlide>
                       <Link
-                        to="https://github.com/Wanchana3om/Merry-Match"
+                        to="https://github.com/Wanchana3om/GIS"
                         target="_blank"
                       >
-                        <img src="/merry.png" />
-                      </Link>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <Link
-                        to="https://github.com/Wanchana3om/Merry-Match"
-                        target="_blank"
-                      >
-                        <img src="/merry.png" />
-                      </Link>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <Link
-                        to="https://github.com/Wanchana3om/Merry-Match"
-                        target="_blank"
-                      >
-                        <img src="/merry.png" />
+                        <img src="/rsu/Untitled.png" />
                       </Link>
                     </SwiperSlide>
                   </Swiper>
